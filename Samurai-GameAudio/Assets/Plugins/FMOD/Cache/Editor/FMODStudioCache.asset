@@ -1,0 +1,1209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9187090168565441049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grass Bristle/Sound Level
+  m_EditorClassIdentifier: 
+  Name: Sound Level
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 398476015
+    data2: 24917480
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Walking
+  - Running
+  - Crouching
+  Exists: 1
+--- !u!114 &-8991325040069461023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Grass Bristle
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Grass Bristle
+  Guid:
+    Data1: -1017323042
+    Data2: 1234421125
+    Data3: 455607432
+    Data4: 944889237
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9187090168565441049}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-8872717858949699011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/NPC.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/SamuraiVillageAudio/Build/Desktop/NPC.bank
+  Name: NPC
+  StudioPath: bank:/NPC
+  lastModified: 638695299958869322
+  FileSizes:
+  - Name: Desktop
+    Value: 608704
+  Exists: 1
+--- !u!114 &-8097088808575477700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Leek Lady (Quest Start)
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Leek Lady (Quest Start)
+  Guid:
+    Data1: 183961975
+    Data2: 1114370150
+    Data3: -895704951
+    Data4: 723028412
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1292
+--- !u!114 &-7750886041283246671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Boxing
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Boxing
+  Guid:
+    Data1: 198030447
+    Data2: 1222663085
+    Data3: 690791345
+    Data4: -795484187
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8147512462792924219}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6911227703196065577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Wind
+  Guid:
+    Data1: 317441698
+    Data2: 1261956793
+    Data3: 1465967549
+    Data4: -565771270
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -443009354543892605}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 89240
+--- !u!114 &-6486219928019598122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Torch
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Torch
+  Guid:
+    Data1: 1434414004
+    Data2: 1146974054
+    Data3: 1272701875
+    Data4: -301196891
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7509
+--- !u!114 &-6354150207527600602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/SamuraiVillageAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638695299950362353
+  FileSizes:
+  - Name: Desktop
+    Value: 2488
+  Exists: 1
+--- !u!114 &-4115839419652392860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump
+  Guid:
+    Data1: 1438720171
+    Data2: 1339230248
+    Data3: 1777893556
+    Data4: 2079509531
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 301
+--- !u!114 &-3782823240593888789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Leek Lady (Quest End)
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Leek Lady (Quest End)
+  Guid:
+    Data1: 1629754982
+    Data2: 1318859385
+    Data3: 1507771836
+    Data4: 724503467
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 658
+--- !u!114 &-3232948752626250476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QUEST
+  m_EditorClassIdentifier: 
+  Name: QUEST
+  StudioPath: parameter:/QUEST
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 117388789
+    data2: 2660169346
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - NoQuest
+  - InQuest
+  Exists: 1
+--- !u!114 &-2403095068952940397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Village/Ambience Volume Control
+  m_EditorClassIdentifier: 
+  Name: Ambience Volume Control
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3474035727
+    data2: 301559023
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2249716766093850113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactable/Gong
+  m_EditorClassIdentifier: 
+  Path: event:/Interactable/Gong
+  Guid:
+    Data1: 578946503
+    Data2: 1313368173
+    Data3: 301721751
+    Data4: 1870099413
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2596
+--- !u!114 &-1607464009518530403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps
+  Guid:
+    Data1: 466299326
+    Data2: 1265694578
+    Data3: -484627066
+    Data4: 694421931
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2208047750059461850}
+  - {fileID: 1738030782383629454}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1484355228530316365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MusicAmbience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/SamuraiVillageAudio/Build/Desktop/MusicAmbience.bank
+  Name: MusicAmbience
+  StudioPath: bank:/MusicAmbience
+  lastModified: 638695299955544941
+  FileSizes:
+  - Name: Desktop
+    Value: 388896
+  Exists: 1
+--- !u!114 &-979008187769388361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Sakura_Blossom
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Sakura_Blossom
+  Guid:
+    Data1: -839720308
+    Data2: 1170154695
+    Data3: 1244410282
+    Data4: 1588724534
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28210
+--- !u!114 &-860749689573313114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/SamuraiWarrior
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/SamuraiWarrior
+  Guid:
+    Data1: -63419539
+    Data2: 1164031122
+    Data3: -1045294445
+    Data4: 680718469
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &-443009354543892605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Ambience Volume Control
+  m_EditorClassIdentifier: 
+  Name: Ambience Volume Control
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3474035727
+    data2: 301559023
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-439875018034398498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Castle
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Castle
+  Guid:
+    Data1: -1268951749
+    Data2: 1184282496
+    Data3: -368846927
+    Data4: 251730854
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8677762479328601336}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 89240
+--- !u!114 &-147084744073287670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Heaving Breathing
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Heaving Breathing
+  Guid:
+    Data1: 1455375616
+    Data2: 1269842791
+    Data3: -318540627
+    Data4: 402440679
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10117
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -6354150207527600602}
+  - {fileID: 4290420792943771610}
+  - {fileID: 4258869386634486730}
+  - {fileID: -1484355228530316365}
+  - {fileID: -8872717858949699011}
+  EditorEvents:
+  - {fileID: 8364808357211274728}
+  - {fileID: 2957900725800846843}
+  - {fileID: 4806021868608543726}
+  - {fileID: 3047236823288440879}
+  - {fileID: -4115839419652392860}
+  - {fileID: -1607464009518530403}
+  - {fileID: -2249716766093850113}
+  - {fileID: -8991325040069461023}
+  - {fileID: 7392142254205709046}
+  - {fileID: 1349796337110303830}
+  - {fileID: 3585814018563601074}
+  - {fileID: 363015284842298655}
+  - {fileID: -147084744073287670}
+  - {fileID: 5658287172905340099}
+  - {fileID: -3782823240593888789}
+  - {fileID: 8979588087253945992}
+  - {fileID: -860749689573313114}
+  - {fileID: -7750886041283246671}
+  - {fileID: -8097088808575477700}
+  - {fileID: 5906440202129126111}
+  - {fileID: 3788738736939214946}
+  - {fileID: 1544671343708431779}
+  - {fileID: 4318604308688897317}
+  - {fileID: 6865320459197924959}
+  - {fileID: -439875018034398498}
+  - {fileID: 5964930105612092154}
+  - {fileID: 3195639784927572204}
+  - {fileID: -979008187769388361}
+  - {fileID: -6911227703196065577}
+  - {fileID: -6486219928019598122}
+  EditorParameters:
+  - {fileID: -3232948752626250476}
+  MasterBanks:
+  - {fileID: 4258869386634486730}
+  StringsBanks:
+  - {fileID: -6354150207527600602}
+  cacheTime: 638695299958869322
+  cacheVersion: 131616
+--- !u!114 &176478453126056454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Background Music/QUEST
+  m_EditorClassIdentifier: 
+  Name: QUEST
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 117388789
+    data2: 2660169346
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - NoQuest
+  - InQuest
+  Exists: 1
+--- !u!114 &363015284842298655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Background Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Background Music
+  Guid:
+    Data1: -16010616
+    Data2: 1129470879
+    Data3: 981417872
+    Data4: -2084540134
+  Banks:
+  - {fileID: -1484355228530316365}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 176478453126056454}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33110
+--- !u!114 &1349796337110303830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Quest Completion
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Quest Completion
+  Guid:
+    Data1: 8972309
+    Data2: 1117584014
+    Data3: -423086169
+    Data4: 962994741
+  Banks:
+  - {fileID: -1484355228530316365}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2040
+--- !u!114 &1544671343708431779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Castle Lady
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Castle Lady
+  Guid:
+    Data1: 370893791
+    Data2: 1096645942
+    Data3: 430095785
+    Data4: 1248434345
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6826
+--- !u!114 &1738030782383629454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Sound Level
+  m_EditorClassIdentifier: 
+  Name: Sound Level
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 398476015
+    data2: 24917480
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Walking
+  - Running
+  - Crouching
+  Exists: 1
+--- !u!114 &2208047750059461850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 1
+  ID:
+    data1: 1529576504
+    data2: 216259076
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Gravel
+  - Grass
+  - Wood
+  - Concrete
+  Exists: 1
+--- !u!114 &2957900725800846843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactable/Quest Error
+  m_EditorClassIdentifier: 
+  Path: event:/Interactable/Quest Error
+  Guid:
+    Data1: -1591849183
+    Data2: 1271314257
+    Data3: 1169592765
+    Data4: -1824409487
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 787
+--- !u!114 &3047236823288440879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactable/Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/Interactable/Pickup
+  Guid:
+    Data1: 1759569308
+    Data2: 1220689709
+    Data3: -1815893114
+    Data4: 680581608
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 408
+--- !u!114 &3195639784927572204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Pond Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Pond Ambience
+  Guid:
+    Data1: -1286129036
+    Data2: 1201024095
+    Data3: 446166156
+    Data4: 1736167626
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25000
+--- !u!114 &3585814018563601074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/QuestStart
+  m_EditorClassIdentifier: 
+  Path: event:/Music/QuestStart
+  Guid:
+    Data1: -1500118450
+    Data2: 1167951860
+    Data3: 807726263
+    Data4: 1562889299
+  Banks:
+  - {fileID: -1484355228530316365}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2142
+--- !u!114 &3788738736939214946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Snoring
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Snoring
+  Guid:
+    Data1: -1526458172
+    Data2: 1170160079
+    Data3: 1896518286
+    Data4: -752612918
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25511
+--- !u!114 &4258869386634486730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/SamuraiVillageAudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638695299950331682
+  FileSizes:
+  - Name: Desktop
+    Value: 218432
+  Exists: 1
+--- !u!114 &4290420792943771610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Files/SamuraiVillageAudio/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638695299947689600
+  FileSizes:
+  - Name: Desktop
+    Value: 4419904
+  Exists: 1
+--- !u!114 &4318604308688897317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Out of Bounds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Out of Bounds
+  Guid:
+    Data1: 1943915530
+    Data2: 1165644262
+    Data3: -340199500
+    Data4: 2131733477
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &4806021868608543726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Out Of Bounds
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Out Of Bounds
+  Guid:
+    Data1: -1781248210
+    Data2: 1153685197
+    Data3: 2118831252
+    Data4: -656187149
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
+  Length: 5348
+--- !u!114 &5658287172905340099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Sword Man (Quest End)
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Sword Man (Quest End)
+  Guid:
+    Data1: 32652879
+    Data2: 1263017969
+    Data3: -1912332630
+    Data4: 1079934525
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 835
+--- !u!114 &5906440202129126111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Sword Lady (Quest Start)
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Sword Lady (Quest Start)
+  Guid:
+    Data1: -2012557189
+    Data2: 1262444165
+    Data3: 297666953
+    Data4: -1124460507
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1351
+--- !u!114 &5964930105612092154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Grasshopper
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Grasshopper
+  Guid:
+    Data1: 1741801822
+    Data2: 1147351692
+    Data3: -1484062077
+    Data4: -217544134
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24830
+--- !u!114 &6865320459197924959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Village
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Village
+  Guid:
+    Data1: -916971985
+    Data2: 1175624727
+    Data3: 831535546
+    Data4: 138855175
+  Banks:
+  - {fileID: 4290420792943771610}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2403095068952940397}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 148688
+--- !u!114 &7392142254205709046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu Popup
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu Popup
+  Guid:
+    Data1: -702962944
+    Data2: 1276262668
+    Data3: 355999141
+    Data4: -23453598
+  Banks:
+  - {fileID: -1484355228530316365}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1032
+--- !u!114 &8147512462792924219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boxing/Punches
+  m_EditorClassIdentifier: 
+  Name: Punches
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 787998920
+    data2: 2927600827
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Punch 1
+  - Punch 2
+  Exists: 1
+--- !u!114 &8364808357211274728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Warp
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Warp
+  Guid:
+    Data1: 597449227
+    Data2: 1293889072
+    Data3: -991017051
+    Data4: -121219428
+  Banks:
+  - {fileID: 4258869386634486730}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
+--- !u!114 &8677762479328601336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Castle/Ambience Volume Control
+  m_EditorClassIdentifier: 
+  Name: Ambience Volume Control
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3474035727
+    data2: 301559023
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8979588087253945992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Sit-ups
+  m_EditorClassIdentifier: 
+  Path: event:/NPCs/Sit-ups
+  Guid:
+    Data1: -1458269077
+    Data2: 1093378648
+    Data3: -1539265146
+    Data4: -1424242115
+  Banks:
+  - {fileID: -8872717858949699011}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14255
